@@ -1,9 +1,10 @@
-import React from "react"
+import React from 'react'
 import {
   FaFacebookSquare,
   FaDribbbleSquare,
   FaTwitterSquare,
-} from "react-icons/fa"
+  FaLinkedin,
+} from 'react-icons/fa'
 const SocialLinks = ({ styleClass }) => {
   return (
     <ul className={styleClass}>
@@ -14,7 +15,7 @@ const SocialLinks = ({ styleClass }) => {
       </li>
       <li>
         <a href="https://twitter.com">
-          <FaDribbbleSquare className="social-icon dribble-icon"></FaDribbbleSquare>
+          <FaLinkedin className="social-icon dribble-icon"></FaLinkedin>
         </a>
       </li>
       <li>
